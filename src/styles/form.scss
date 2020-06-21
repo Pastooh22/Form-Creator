@@ -1,0 +1,21 @@
+@import 'wyglad';
+
+@mixin BTN {
+    width: 100px;
+    height: 80px;
+    font-size: 20px;
+    color: $Text;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+    border-radius: 20%;
+    background: $BG_BTN;
+    outline: none;
+  }
+  #Get{
+    @include BTN;
+  }
+  #Set{
+    @include BTN;
+    display:none;
+  }
